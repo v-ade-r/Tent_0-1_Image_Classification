@@ -5,9 +5,9 @@ I only had 48 images of my tent, and I was wondering if that would be enough to 
 from each single image I had before. I manually inspected it, and divided into appropriate sets, trying to maintain as much image variation as possible in each set. Nontent images have been augmented, in order to prevent the model from learning that, for example, rotated images are always a Tent.
 
 There are 2 labels: **Tent, NonTent**. Their ratio is almost 50/50.
-**Train** data size: **504 files**
-**Valid** data size: **112 files**
-**Test** data size: **12 files**
+1. **Train** data size: **504 files**
+2. **Valid** data size: **112 files**
+3. **Test** data size: **12 files**
 
 You can learn from this code how to:
 
