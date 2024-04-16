@@ -17,3 +17,6 @@ You can learn from this code how to:
 
 **Conclusions:**
 This fine-tuned model was trained solely on images of my white MSR Hubba Hubba NX tent, but it still managed to learn the essence of ‘tentness’ and learn how to recognize a tent of any color and on any type of ground, not just grass. The percentages are usually lower for very difficult setups, but the predictions are still correct most of the time. Moreover, it can differentiate between tents and similar objects like houses, barns, and igloos.
+
+**Final utility**
+This code enables any user visiting the site (new address is created by Gradio during each compilation.) to drag or upload any image and get an evaluation of whether there is a tent somewhere in the image or not. The percentages given next to the label explain how confident the model is in its prediction.
