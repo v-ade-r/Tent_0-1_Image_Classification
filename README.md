@@ -16,7 +16,7 @@ You can learn from this code how to:
 4. **Use Gradio**
 
 **Conclusions:**
-This fine-tuned model was trained solely on images of my white MSR Hubba Hubba NX tent, but it still managed to learn the essence of ‘tentness’ and learn how to recognize a tent of any color and on any type of ground, not just grass. The percentages are usually lower for very difficult setups, but the predictions are still correct most of the time. Moreover, it can differentiate between tents and similar objects like houses, barns, and igloos.
+This fine-tuned model was trained exclusively on images of my white MSR Hubba Hubba NX tent. Although one of the classes that the model was pretrained on was 'mountain tent', I further trained it to recognize tents in a variety of images, including augmented ones. As a result, the model gained the ability to recognize a tent even in cropped and rotated pictures. The pre-trained model doesn’t possess this ability, and when presented with rotated images, it loses its wit and predicts odd things like parachutes or plastic bags. 
 
 **Final utility**
-This code enables any user visiting the site (new address is created by Gradio during each compilation.) to drag or upload any image and get an evaluation of whether there is a tent somewhere in the image or not. The percentages given next to the label explain how confident the model is in its prediction.
+This code enables any user visiting the site (new address is created by Gradio during each compilation.) to drag or upload any image (even strangly rotated) and get an evaluation of whether there is a tent somewhere in the image or not. The percentages given next to the label explain how confident the model is in its prediction.
